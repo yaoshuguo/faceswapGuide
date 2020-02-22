@@ -10,6 +10,6 @@ Powered by Tensorflow, Keras and Python; Faceswap will run on Windows, macOS and
 由Tensorflow、Keras和Python支持；Faceswap将在Windows、macOS和Linux上运行。
 
 * Installation: `Windows Guide here`
-* Extraction: `[Guide here](Extraction.md)`
+* Extraction: [Guide here](Extraction.md)
 * Training: `Guide here`
 * Convert: ~Guide in progress~
