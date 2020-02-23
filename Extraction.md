@@ -51,11 +51,11 @@ The purpose of the alignments file is three-fold:<br>
 - Training: It provides the face landmarks if "Warp to Landmarks" is enabled.
 - Converting: It tells the convert process where the face is in the original frame to be replaced.
 - Training and converting: It stores any masks that may be used for either of these processes.
-<br>
-- 训练：如果启用了“扭曲到地标”，它将提供面部地标。
-- 转换：它告诉转换过程，面在原始帧中的位置将被替换。
-- 训练和转换：它存储任何可能用于这些过程的掩码。
-
+```
+训练：如果启用了“扭曲到地标”，它将提供面部地标。
+转换：它告诉转换过程，面在原始帧中的位置将被替换。
+训练和转换：它存储任何可能用于这些过程的掩码。
+```
 So now we know why we need to extract faces, how do we nail down a good workflow?<br>
 > 所以现在我们知道为什么我们需要提取人脸，如何确定一个好的工作流？
 
