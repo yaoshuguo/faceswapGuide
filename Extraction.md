@@ -59,4 +59,10 @@ The purpose of the alignments file is three-fold:<br>
 So now we know why we need to extract faces, how do we nail down a good workflow?<br>
 > 所以现在我们知道为什么我们需要提取人脸，如何确定一个好的工作流？
 
+### Extracting
+The first step, whatever your reason for creating a faceset is to actually extract the faces from the frames.
+
+> 第一步，不管创建人脸关键点的原因是什么，实际上都是从帧中提取人脸。
+
+
 
