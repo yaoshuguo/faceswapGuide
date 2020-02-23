@@ -27,7 +27,36 @@ Extracting serves 2 main purposes:<br>
 - To generate an alignments file and mask for converting your final frames
 > - 生成一组面以及路线文件和遮罩（可选）以训练模型的步骤
 > - 生成用于转换最终帧的路线文件和遮罩的步骤
+
 There is technically a 3rd purpose which is when you are extracting for converting and want some of these faces for training as well. I will also cover this off.<br>
 > 从技术上讲，这是第三个目的，当你提取转换，并希望这些脸的一些训练以及。我也会把这件事掩盖起来。
+
+Whilst the extracted faces are not required for convert (only the alignments file is), it is useful to have them so that we can clean up our dataset for the conversion process.<br>
+> 虽然提取的面不需要转换（只有路线文件需要），但是拥有它们很有用，这样我们就可以为转换过程清理数据集。
+
+#### The Alignments File
+> 路线文件
+
+The alignments file holds information about all the faces it finds in each frame, specifically where the face is, and where the 68 point landmarks are:<br>
+> 路线文件保存有关在每个帧中找到的所有面的信息，特别是面所在的位置和68点地标所在的位置：
+
+![68 point](https://github.com/yaoshuguo/faceswapGuide/blob/master/images/point68.png)<br>
+
+It also stores any masks that have been extracted for each face.<br>
+> 它还存储为每个人脸提取的任何面具。
+
+The purpose of the alignments file is three-fold:<br>
+> 路线文件的用途有三个：
+
+-Training: It provides the face landmarks if "Warp to Landmarks" is enabled.
+-Converting: It tells the convert process where the face is in the original frame to be replaced.
+-Training and converting: It stores any masks that may be used for either of these processes.
+<br>
+> 训练：如果启用了“扭曲到地标”，它将提供面部地标。
+> 转换：它告诉转换过程，面在原始帧中的位置将被替换。
+> 训练和转换：它存储任何可能用于这些过程的掩码。
+
+So now we know why we need to extract faces, how do we nail down a good workflow?<br>
+> 所以现在我们知道为什么我们需要提取人脸，如何确定一个好的工作流？
 
 
