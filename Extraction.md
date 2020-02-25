@@ -70,4 +70,4 @@ The first step, whatever your reason for creating a faceset is to actually extra
 This is where we select our input videos or images, and our output location.
 > 这是我们选择输入视频或图像以及输出位置的地方。
 
-![input](https://github.com/yaoshuguo/faceswapGuide/blob/master/images/images1.jpg)<br>
+![input](https://github.com/yaoshuguo/faceswapGuide/blob/master/images/image1.jpg)<br>
