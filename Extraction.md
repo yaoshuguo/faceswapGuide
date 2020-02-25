@@ -56,7 +56,7 @@ The purpose of the alignments file is three-fold:<br>
 转换：它告诉转换过程，面在原始帧中的位置将被替换。
 训练和转换：它存储任何可能用于这些过程的掩码。
 ```
-So now we know why we need to extract faces, how do we nail down a good workflow?<br>
+So now we know why we need to extract faces, how do we nail down a good workflow?
 > 所以现在我们知道为什么我们需要提取人脸，如何确定一个好的工作流？
 
 ### Extracting
@@ -65,9 +65,20 @@ The first step, whatever your reason for creating a faceset is to actually extra
 > 第一步，不管创建人脸关键点的原因是什么，实际上都是从帧中提取人脸。
 
 - Data
-> 数据
-
 This is where we select our input videos or images, and our output location.
 > 这是我们选择输入视频或图像以及输出位置的地方。
 
-![input](https://github.com/yaoshuguo/faceswapGuide/blob/master/images/image1.jpg)<br>
+![input](https://github.com/yaoshuguo/faceswapGuide/blob/master/images/image1.jpg)
+
+ - Input Dir: First up we need a source. This can be set to either a video file (video icon) or to a folder containing a series of images (picture icon).
+ - Output Dir: Next we need to tell the process where to save the extracted faces to. Click the folder icon next to select an output location.
+ - I ignore the next few options, so you probably should too, but the explanation of each of them is below:
+
+- Plugins
+The plugins are used for first detecting faces in an image, reading the faces landmarks to align the image and creating a mask using a variety of masking methods.
+> 这些插件用于首先检测图像中的面，读取面标记以对齐图像，并使用各种掩蔽方法创建掩蔽。
+
+![plugins](https://github.com/yaoshuguo/faceswapGuide/blob/master/images/plugins00.jpg)
+
+
+
