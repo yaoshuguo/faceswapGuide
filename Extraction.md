@@ -64,7 +64,8 @@ The first step, whatever your reason for creating a faceset is to actually extra
 
 > 第一步，不管创建人脸关键点的原因是什么，实际上都是从帧中提取人脸。
 
-- Data
+* Data
+
 This is where we select our input videos or images, and our output location.
 > 这是我们选择输入视频或图像以及输出位置的地方。
 
@@ -74,7 +75,8 @@ This is where we select our input videos or images, and our output location.
  - Output Dir: Next we need to tell the process where to save the extracted faces to. Click the folder icon next to select an output location.
  - I ignore the next few options, so you probably should too, but the explanation of each of them is below:
 
-- Plugins
+* Plugins
+
 The plugins are used for first detecting faces in an image, reading the faces landmarks to align the image and creating a mask using a variety of masking methods.
 > 这些插件用于首先检测图像中的面，读取面标记以对齐图像，并使用各种掩蔽方法创建掩蔽。
 
