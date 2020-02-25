@@ -64,5 +64,10 @@ The first step, whatever your reason for creating a faceset is to actually extra
 
 > 第一步，不管创建人脸关键点的原因是什么，实际上都是从帧中提取人脸。
 
+- Data
+> 数据
 
+This is where we select our input videos or images, and our output location.
+> 这是我们选择输入视频或图像以及输出位置的地方。
 
+![input](https://github.com/yaoshuguo/faceswapGuide/blob/master/images/images1.jpg)<br>
